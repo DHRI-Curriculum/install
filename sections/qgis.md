@@ -4,9 +4,9 @@
 
 
 ## Download
-* Download __QGIS Version 2.18__ from https://qgis.org/en/site/forusers/download.html:
+* Download __QGIS Version 3.16__ from https://qgis.org/en/site/forusers/download.html:
 
-![list of qgis download options (version 3.0 64 bit, 3.0, 32 bit, 2.18 64 bit, 2.18 32 bit) with 2.18 64bit circled](../images/windows/qgis/qgis_download.png)
+![list of qgis download options ](../images/osx/QGIS/QGISinstall.png)
 
 ## Windows Install:
 
@@ -20,18 +20,13 @@
 
 1. [Download](#download)
 
-2. When you click on the installer, you will see this page:
+2. After opening the install package, you will be taken through a prompt. Follow the instructions.
 
-![osx file explorer showing 0. 0. Readme_Install.rtf, 1. gdal.pkg, 2. numpy.pkg, 3. matplotlib.pkg, 4. qgis.pkg, gdal extras folder, readme.rtf, License, GPL license](../images/osx/qgis.png)
+![QGIS intaller](../images/osx/QGIS/QGISdownloadprompt.png)
 
- You MUST install the items **IN NUMERICAL ORDER** using the provided installers:
+3. After the package installs, move the QGIS application into your applications.
 
-1. GDAL
-2. NumPy
-3. Matplotlib
-4. QGIS
-
-The QGIS Python is independent of the Anaconda Python used elsewhere. You must install the QGIS numpy and matplotlib, even if they are already installed in your system. If you need QGIS to work with your system Python, please follow the listed instructions and then speak to the instructor privately.
+![QGIS move to apps](../images/osx/QGIS/QGISintoApps.png)
 
 3. [Test install](#test-install)
 
@@ -39,9 +34,19 @@ The QGIS Python is independent of the Anaconda Python used elsewhere. You must i
 You may need to change [security & privacy settings](https://support.apple.com/en-us/HT202491) to allow app downloads from outside sources.
 
 ## Test Install
- Launch __QGIS 2.18 Desktop 2.18.20__. A new project will look like this:
 
-![qgis installer](../images/windows/qgis/qgis09.png)
+1. Navigate to your applications and click on QGIS.
 
-Instructions are modified from [Michelle A. McSweeney](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Install-QGIS.md)
+2. You will likely receive an error that says ““QGIS” can’t be opened because Apple cannot check it for malicious software.”
+
+3. To troubleshoot this, go back to your applications and this time instead of double-clicking on the QGIS app, right-click and select “Open.” Then when prompted again, select “Open.”
+
+4. Note that after this point you will be able to open the app by simply double-clicking on it. 
+ 
+ Launch __QGIS 3.16. A new project will look like this:
+
+![qgis installer](../images/osx/QGIS/QGISinterface.png)
+
+
+
 
