@@ -8,7 +8,7 @@
 
 ![list of qgis download options ](../images/osx/QGIS/QGISinstall.png)
 
-## Windows Install:
+## Windows:
 
 1. [Download](<https://qgis.org/en/site/forusers/download.html>)
 
@@ -16,7 +16,7 @@
 
 3. [Test install](#test-install)
 
-## Mac OS/X:
+## macOS:
 
 1. [Download](<https://qgis.org/en/site/forusers/download.html>)
 
