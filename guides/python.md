@@ -21,6 +21,8 @@ If you don't have Anaconda installed on your computer, you can follow either the
 ## Installation instructions: macOS (Mojave, Catalina, Big Sur etc.)
 
 While the installation instructions below is for macOS Catalina (10.15) and above, this installation instruction should work for older macOS versions. Older macOS versions (10.13 (High Sierra) to 10.14 (Mojave)) can also skip step 3 in the installation process. For older versions, please check out the [Anaconda documentation](https://docs.anaconda.com/anaconda/install/#old-os). You can check your macOS version by clicking the "apple" icon on the upper-left corner of your menu bar and choose "About This Mac." You should see the macOS name followed by the version number. Should you run into any trouble, you can also find solution to common installation issues [here](https://docs.anaconda.com/anaconda/user-guide/troubleshooting/).
+
+Another note, for MacOS Catalina and Big Sur, the Terminal window will likely show the `%` (percent sign) prompt, which is default for the newest version of Terminal. If you have an older version, it will show the `$` (dollar sign) prompt. Either prompt works the exact same, so it does not matter if yours is different from the instructions. Just be aware that they are interchangeable in these instructions.
  
 ### Step 1: Download Python 3.+
 
@@ -74,7 +76,7 @@ You can move the installer to the Trash to save space on your hard drive by clic
 
 This step ensures that you will be able to run anaconda directly from your terminal.  
 
-Open your macOS terminal. You can find your terminal by clicking the "magnifying glass" icon (also known as `Spotlight`) on the upper-right hand corner of your menubar or press <kbd>command</kbd> + <kbd>space</kbd>, type `Terminal` and press <kbd>enter</kbd>. In your terminal, you will run a few lines of code to make sure that the terminal knows how to start Anaconda. Type in the following lines of code, after the `$`, pressing <kbd>enter</kbd> after each line:  
+Open your macOS terminal. You can find your terminal by clicking the "magnifying glass" icon (also known as `Spotlight`) on the upper-right hand corner of your menubar or press <kbd>command</kbd> + <kbd>space</kbd>, type `Terminal` and press <kbd>enter</kbd>. In your terminal, you will run a few lines of code to make sure that the terminal knows how to start Anaconda. Type in the following lines of code, after the `%`, pressing <kbd>enter</kbd> after each line:  
 
 ```console
 cd ~
@@ -83,7 +85,7 @@ source .bash_profile
 conda init zsh
 ```
 
-If this step is successful, when you close and re-open terminal, your command prompt `$` should have (base) in front of it.
+If this step is successful, when you close and re-open terminal, your command prompt `%` should have (base) in front of it.
 
 ### Step 4: Check if Anaconda and Python are successfully installed
 
